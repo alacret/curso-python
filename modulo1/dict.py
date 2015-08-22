@@ -2,11 +2,14 @@
 
 '''
 DICCIONARION (PROGRAMACION)
-Un vector asociativo (también contenedor asociativo, mapa, mapeador, hash, diccionario,
-mapa finito, tabla de consulta) es un tipo abstracto de dato formado por una colección
-de claves únicas y una colección de valores, con una asociación uno a uno
+Un vector asociativo (también contenedor asociativo, mapa,
+mapeador, hash, diccionario, mapa finito, tabla de consulta)
+es un tipo abstracto de dato formado por una colección
+de claves únicas y una colección de valores, con una
+asociación uno a uno
 
-Las claves de los diccionarios deben ser tipos de datos inmutables: Strings, numeros o tuplas
+Las claves de los diccionarios deben ser tipos de datos
+inmutables: Strings, numeros o tuplas
 
 Se definen con llaves, y se acceden con corchetes
 '''

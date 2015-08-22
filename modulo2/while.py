@@ -1,8 +1,9 @@
 __author__ = 'alacret'
 
 '''
-ciclo WHILE, para iterar mientras se cumple alguna condicion,
-o mientras una condicion es verdadera
+ciclo WHILE, para iterar mientras se cumple
+alguna condicion, o mientras una condicion
+es verdadera
 
 '''
 
@@ -34,7 +35,7 @@ else:
 
 
 '''
-Dentro del ciclo se pueden usar las sentencias:
+Dentro del ciclo se pueden usar las sentencia   s:
 - break: para salir del ciclo
 - continue: para saltar a la siguiente evaluacion de la condicion
 - pass: que no hace nada
@@ -48,8 +49,9 @@ while c < 9:
     c += 1
 
 '''
-Llenar un diccionario con cinco entradas de teclado,
-luego iterarlo hasta encontrar un caracter especial de terminar.
+Llenar un lista con cinco entradas de teclado,
+luego iterarlo hasta encontrar un caracter especial
+
 
 Contar en que posicion esta el caracter especial
 

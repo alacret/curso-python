@@ -3,23 +3,32 @@ __author__ = 'alacret'
 '''
 En python, una funcion es un bloque de codigo reutilizable,
 con una definicion, que puede ser utilizado en cualquier
-lugar del codigo.
+otro lugar del programa.
 
-Esta definicion incluye los parametros que recibe, opcionales
-o no, y el cuerpo de la funcion. El cuerpo puede tener cero o
-N sentencias return.
+Esta definicion incluye los parametros que recibe,
+opcionales o no, y el cuerpo de la funcion y cero
+o cualquier cantidad de sentencias return.
 
-En python, las funciones tambien son un tipo de datos, es decir,
-puede asignarse a una variable, operarse, e incluso pasarse como
-parametro a otra funcion
+En python, las funciones tambien son un tipo de datos,
+es decir, puede asignarse a una variable, operarse, e
+incluso pasarse como parametro a otra funcion
 '''
 
 
 def hola():
-    print("HOLA MUNDO") # una funcion que no devuelve nada, devuelve None
+    print("HOLA MUNDO") # una funcion que no devuelve
+    # nada, devuelve None
+    return None
 
 hola()
 hola()
+
+
+
+
+
+
+
 
 # Siempre es bueno documentar tus funciones
 def hola():
@@ -136,13 +145,16 @@ print(b,c)
 '''
 Ejercicios
 
-1)Dado una lista o tupla, devolver en una funcion el ultimo elemento, ejemplo:
+1)Dado una lista o tupla, devolver en una funcion
+el ultimo elemento, ejemplo:
 [1,2,1,1,1,2,2,2,3,3,4,4,4,1]
 devuelve 1
 
-2) Cuenta las donas: imprime una frase que indica la cantidad de donas. La entrada
-es el numero de donas que se tiene, sin embargo, si el numero es mas grande que diez,
-imprima el string DEMASIADAS donas
+2) Cuenta las donas: imprime una frase que indica
+la cantidad de donas. La entrada es el numero de
+donas que se tiene, sin embargo, si el numero es
+mas grande que diez, imprima el string DEMASIADAS donas
 
-3) Un programa que imprime el cuadrado del numero ingresado
+3) Un programa que imprime el cuadrado del
+numero ingresado
 '''

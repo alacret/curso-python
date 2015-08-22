@@ -9,8 +9,10 @@ Similar a la mayoria de lenguajes de programacion
 
 a = True
 
-if a == True:
-    print("Sentencia condicionada")
+if a is True:
+    print("A es True")
+else:
+    print("A no es True")
 
 if a: # Python autmaticamente evalua en los if
     print("Sentecnia condicionada mas simple")
@@ -45,5 +47,7 @@ Ejercicio:
 
 - Imprimir 1 o 2 en funcion de una variable booleana
 
-- Actualizar un diccionario con un valor, evaluando una variable
+- Actualizar un diccionario con un valor,
+evaluando una variable
+
 '''

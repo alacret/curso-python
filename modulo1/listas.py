@@ -26,8 +26,10 @@ lista.append("C")
 lista.append("D")
 print(lista)
 
+# LISTA: Ref: https://docs.python.org/3/library/stdtypes.html?highlight=list#list
 
-#Built in len()
+
+# Built in len()
 print(len(lista))
 
 # Lista bidimensionales
@@ -38,10 +40,10 @@ print(lista)
 # Operacones con lista y sus elementos
 
 a = [3, 4, 5, 6, 7, 8]
-b = [i for i in a if i > 4]
+# b = [i for i in a if i > 4]
 print(b)
 #
-b = filter(lambda x: x > 4, a)
+#b = filter(lambda x: x > 4, a)
 # python3 filter devuelve un objeto iterable
 print(b)
 print(list(b))

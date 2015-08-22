@@ -4,7 +4,7 @@ Python maneja 4 tipos de datos númericos:
 - Enteros con signo (Integers o int)
 - números largos o long
 - numeros de punto flotante o float
-- numeros complejos o complex
+- numeros complejos o complex (1i + j)
 '''
 # INT
 a = 2
@@ -24,7 +24,7 @@ c = 6
 d = 4
 e = (a - b*c) / d # Puedes usar parentesis para agrupar
 print(e) # esperado 5.0
-#NOTAS: las divisiones siempre devuelven float en python3
+# NOTAS: las divisiones siempre devuelven float en python3
 
 # ALGUNAS FUNCIONES
 print(max(1,4,888)) #esperado 888
@@ -43,4 +43,5 @@ https://docs.python.org/3/library/math.html
 '''
 Ejercicios:
 Abrir la referencia completa de math y probar algunas funciones
+
 '''

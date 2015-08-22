@@ -20,7 +20,8 @@ print(a)
 a = '''
 Hola,
 Fue lo que dijo
-  '''
+Multiples lineas
+'''
 print(a)
 
 a = (''
@@ -50,6 +51,8 @@ print(len(a))
 print(a.capitalize())
 print(a.find('n'))
 print(a.isalpha())
+
+# https://docs.python.org/3/library/stdtypes.html?highlight=str#str
 
 # Formatting (https://docs.python.org/3/library/string.html#formatstrings)
 a = "Mi nombre es: {0}"
