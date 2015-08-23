@@ -1,0 +1,45 @@
+def imprimir_nombre(nombre):
+	n = str(nombre)
+	print("HOLA " + n)
+
+def hola(nombre="John Doe", multiplicador=7):
+	if multiplicador > 5:
+		imprimir_nombre(nombre)
+		print("Demasiados nombres")
+		return nombre
+	
+	for i in range(multiplicador):
+		imprimir_nombre(nombre)
+
+	return nombre
+
+
+
+
+
+
+
+
+def exponencial(base, exponente):
+	'''
+	Una funcion que hace base **exponente
+	'''
+	r = 0
+	for i in range(exponente):
+		r  (i * base)
+	return r
+
+a = exponencial(2,4)
+print(a)
+
+
+
+
+
+
+
+
+
+
+
+

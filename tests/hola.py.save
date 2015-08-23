@@ -1,0 +1,17 @@
+print("ESTE ES EL ARCHIVO DE PRUEBA: \n\n\n ")
+
+entrada print("ESTE ES EL ARCHIVO DE PRUEBA: \n\n\n ")
+ input
+
+a = [1,2]
+
+if 3 in a:
+	print("3 esta en a")
+else:
+	print("El 3 esta en a")
+	a.append(3)
+
+print(a)
+
+
+
