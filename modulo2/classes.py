@@ -6,7 +6,8 @@ Las clases en python son un tipo de dato
 
 # Asi basicamente
 
-class MiClase:
+
+class MiClase(object):
     pass
 
 
@@ -17,11 +18,13 @@ print(a.x)
 
 '''
  Constructores, metodos y variables
- El constructor y los metodos se definen igual que una funcion, ademas
-  de las siguientes reglas:
- - El constructor y los metodos de instancia tienen un primer parametro
- obligatorio con el nombre especial de SELF
- - Los metodos estaticos o de clase tienen que estar decorados con @STATICMETHOD o @CLASSMETHOD
+ El constructor y los metodos se definen igual que
+ una funcion, ademas de las siguientes reglas:
+ - El constructor y los metodos de instancia tienen
+ un primer parametro obligatorio con el nombre
+ especial de SELF
+ - Los metodos estaticos o de clase tienen que estar
+    decorados con @STATICMETHOD o @CLASSMETHOD
 '''
 
 class MiClase:
@@ -49,13 +52,7 @@ print(a.x)
 a.sumar(3)
 print(a.x)
 
-'''
-Variables o metodos privados
-A difencia de otros lenguajes OO, python no incluye la posiblidad de metodos o variables privadas
-Pero, por convencion se usa el underscore (_) para metodos o variables de uso interno de las clases
-o modulos, que solo intervienen en ese contexto y que no estan diseñados para exponerse
 
-'''
 
 # HERENCIA
 
@@ -126,3 +123,12 @@ print(a.x)
 b = MiOtraSubClase()
 b.sumar(2)
 print(b.x)
+
+
+'''
+1. Escribamos una clase Persona, que tenga sus
+datos basicos, con un metodo que devuelva su nombre
+ completo y dos subclases, para simular Personas
+ Juridicas y Naturales
+
+'''
